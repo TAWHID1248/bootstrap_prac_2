@@ -24,7 +24,7 @@ nav ul{
 
 /* hero section */
 
-.banner h3{
+.banner h5{
     color:#96BB7C
 }
 
@@ -40,7 +40,7 @@ nav ul{
     line-height: 30px; 
 }
 
-.banner h5{
+.banner h6{
     color: #737373; 
     font-size: 20px;
     font-weight: 400;
@@ -73,7 +73,19 @@ nav ul{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.line-red {
-    border-top: 2px solid #E74040;
-    width: 50px;
+.line-red-bold {
+    border-top: 8px solid #E74040;
+    width: 140px;
+}
+
+/* get-quality section */
+
+.get-quality{
+    height: 80vh;
+}
+
+.get-quality h2{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
 }
