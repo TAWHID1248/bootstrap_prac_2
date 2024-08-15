@@ -5,6 +5,9 @@
     font-family: "montserrat";
 }
 
+section {
+    height: 100vh;
+}
 
 /* navbar */
 
@@ -91,7 +94,7 @@ nav ul{
 
 }
 
-.card{
+.card-p-advice{
     padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -101,7 +104,11 @@ nav ul{
     width: 50px;
 }
 
-
+.card-special{
+    color: #fff;
+    background-color: #96BB7C;
+    
+}
 
 /* get-quality section */
 
@@ -119,3 +126,14 @@ nav ul{
     border-top: 8px solid #E74040;
     width: 140px;
 }
+
+.get-quality a{
+ 
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #96BB7C;
+}
+
+
+/* most popular */
