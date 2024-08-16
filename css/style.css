@@ -137,3 +137,26 @@ nav ul{
 
 
 /* most popular */
+
+.card-sale{
+    width: 51px;
+    height: 24px;
+    background-color: #E74040;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* .img-icon{
+    width: 140px;
+    height: 40px;
+    
+} */
+
+.review-box{
+    background-color: #2D4059;
+    width: 50px;
+    height: 26px;
+    border-radius: 20px;
+    /* display: flex;
+    align-items: center; */
+}
