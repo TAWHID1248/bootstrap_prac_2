@@ -169,9 +169,10 @@ nav ul{
 
 }
 
-.card-icon-2 img{
-    
-}
+/* .card-icon-2 img{
+    width: 40px;
+    height: 40px;
+} */
 
 .train-box{
 
@@ -179,25 +180,100 @@ nav ul{
 
 .train-box a{
 
+font-family: Montserrat;
+
+font-size: 14px;
+
+font-weight: 700;
+
+line-height: 24px;
+
+text-align: left;
+
+color: #96BB7C;
+
+text-decoration: none;
 }
 
 .review-box{
 
-}
+width: 50px;
 
-.download-box{
+height: 26px;
 
-}
+/* padding: 5px; */
 
-.download-box img{
+gap: 5px;
 
-}
+border-radius: 20px;
 
-.rate{
+opacity: 0px;
 
-}
-
-.card-deatails button{
+background-color: #2D4059;
 
 }
+.review-box span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
 
+}
+.card-details p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+.downlaod-box span{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.old-rate{
+    color: #BDBDBD;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+}
+
+.new-rate{
+    color: #FFAB71;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+}
+
+.card-details button{
+
+    width: 141.14px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px;
+    border: 1px solid #96BB7C;
+}
+
+.card-details h6{
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
