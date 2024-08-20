@@ -138,6 +138,10 @@ nav ul{
 
 /* most popular */
 
+/* .courses{
+    display: flex;
+} */
+
 .card-1{
     background-image: url(../images/product-1-img-frm.png);
     width: 238px;
@@ -151,8 +155,8 @@ nav ul{
     top: 20px;
     left: 20px;
     padding: 0px 10px 0px 10px;
-    border-radius: 3px 0px 0px 0px;
-    
+    border-radius: 3px;
+ 
 }
 
 .sale h6{
@@ -166,7 +170,8 @@ nav ul{
 }
 
 .card-icon-2{
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* .card-icon-2 img{
@@ -175,7 +180,9 @@ nav ul{
 } */
 
 .train-box{
-
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .train-box a{
@@ -200,8 +207,9 @@ text-decoration: none;
 width: 50px;
 
 height: 26px;
+display: inline-flex;
 
-/* padding: 5px; */
+padding: 5px;
 
 gap: 5px;
 
@@ -221,6 +229,12 @@ background-color: #2D4059;
     text-align: left;
 
 }
+
+.card-details{
+    width: 232px;
+    height: 300px;
+}
+
 .card-details p{
     color: #737373;
     font-size: 14px;
