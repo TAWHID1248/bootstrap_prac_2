@@ -138,9 +138,32 @@ nav ul{
 
 /* most popular */
 
-/* .courses{
-    display: flex;
-} */
+.most-popular-txt h6{
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.most-popular-txt h2{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.most-popular-txt p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
 
 .card-1{
     background-image: url(../images/product-1-img-frm.png);
@@ -289,5 +312,139 @@ background-color: #2D4059;
     line-height: 24px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
+
+}
+
+
+/* expert teacher section */
+
+.expert-teacher-txt h6{
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.expert-teacher-txt h2{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+
+.expert-teacher-txt p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.free-card{
+    width: 300px;
+    height: 900px;
+    top: 29px;
+    left: 0.5px;
+    padding: 50px 40px 50px 40px;
+    gap: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-sizing: border-box; */
+    align-items: center;
+}
+
+.free-card-img{
+    width: 96px;
+    height: 96px;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+.free-card-body {
+    display: contents;
+}
+
+.free-card-body h4{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+
+.free-card-body h6{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    
+}
+
+.expert-rate h2{
+    color: #96BB7C;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+
+.expert-rate h6{
+    color: #8EC2F2;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+
+.free-card-body p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.free-card-body button{
+    background-color: #96BB7C;
+    width: 243px;
+    height: 52px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.btn-txt p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.card-option{
+    width: 243px;
+    height: 32px;
+}
+
+.card-option img{
+    width: 32px;
+    height: 32px;
+    /* padding: 10px 8px 11px 8px; */
+    border-radius: 200px;
+
 
 }
