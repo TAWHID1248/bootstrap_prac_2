@@ -347,8 +347,8 @@ background-color: #2D4059;
 }
 
 .free-card{
-    width: 300px;
-    height: 900px;
+    /* width: 300px; */
+    height: auto;
     top: 29px;
     left: 0.5px;
     padding: 50px 40px 50px 40px;
@@ -440,11 +440,36 @@ background-color: #2D4059;
     height: 32px;
 }
 
-.card-option img{
+
+.card-option i{
+    display: inline-block;
     width: 32px;
     height: 32px;
     /* padding: 10px 8px 11px 8px; */
-    border-radius: 200px;
+    border-radius: 200px;   
+}
 
+.card-option ul{
+    padding: 0px;
+    display: block;
+}
+
+.card-option li{
+    list-style-type: none;
+    color: #252B42;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
 
 }
+.blue-card-col{
+    margin-bottom: -10px;
+}
+.blue-card{
+    background-color: #2D4059;
+    color: #fff;
+    
+}
+
